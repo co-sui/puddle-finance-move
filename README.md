@@ -33,18 +33,3 @@ Operation - Get Rewards
 ---
 ![Imgur](https://i.imgur.com/QNHpfvp.png)
 
-Demo Page
----
-https://dapp-ts.vercel.app/
-
-Demo Video
----
-https://www.youtube.com/watch?v=iEyJUkBA7lk
-
-Dapp git
----
-https://github.com/puddle-finance/dapp-ts
-
-Contract Address
----
-0xb8226df4ab8b4afacdfbef6111ec0a09f6fe7c30a9d3fe553666b63f4d8fb1f4
