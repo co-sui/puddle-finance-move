@@ -179,22 +179,22 @@ module puddle_finance::market{
 
     }
 
-    public entry fun withdraw_policy_rewards<T>(
-        policy: &mut TransferPolicy<T>,
-        policy_cap: &TransferPolicyCap<T>,
-        fund: &mut TeamFund,
-        ctx: &mut TxContext,
-    ){
-        let none = option::none<u64>();
-        let rewards = transfer_policy::withdraw<T>(
-            policy,
-            policy_cap,
-            none,
-            ctx,
-        );
+    // public entry fun withdraw_policy_rewards<T>(
+    //     policy: &mut TransferPolicy<T>,
+    //     policy_cap: &TransferPolicyCap<T>,
+    //     fund: &mut TeamFund,
+    //     ctx: &mut TxContext,
+    // ){
+    //     let none = option::none<u64>();
+    //     let rewards = transfer_policy::withdraw<T>(
+    //         policy,
+    //         policy_cap,
+    //         none,
+    //         ctx,
+    //     );
 
-        admin::deposit(coin::into_balance(rewards), fund);
-    }
+    //     admin::deposit(coin::into_balance(rewards), fund);
+    // }
     #[lint_allow(self_transfer)]
     public entry fun withdraw_kiosk_value(
         kiosk_obj: &mut Kiosk,
