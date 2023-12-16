@@ -33,9 +33,9 @@ Operation - Get Rewards
 ---
 ![Imgur](https://i.imgur.com/QNHpfvp.png)
 
-contract address (testnet): 
-0x0d6d8aa4229bd3a2b1d03bcfef741f1e82c38e8a5cd19cffa6cb2177bf951f30
-demo video: 
-https://www.youtube.com/watch?v=tSRMkGy63Uw
-demo page: 
-https://puddle-finance-zone.vercel.app/
+contract address (testnet): <br>
+0x0d6d8aa4229bd3a2b1d03bcfef741f1e82c38e8a5cd19cffa6cb2177bf951f30 <br>
+demo video:  <br>
+https://www.youtube.com/watch?v=tSRMkGy63Uw <br>
+demo page:  <br>
+https://puddle-finance-zone.vercel.app/ <br>
